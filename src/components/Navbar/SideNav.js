@@ -9,7 +9,11 @@ const SideNav = (props) => {
 		<div className="side-nav">
 			<Link className="nav-link" to="/"> Home </Link>
 			<Link className="nav-link" to="/rooms">Rooms</Link>
+			<Link className="nav-link" to="/facilities"> Facilities </Link>
 			<Link className="nav-link" to="/gallery"> Gallery </Link>
+			<Link className="nav-link" to="/about"> About </Link>
+			<Link className="nav-link" to="/contact"> Contact </Link>
+
 		</div>
 
 	)
