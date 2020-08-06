@@ -2,13 +2,13 @@ import React from 'react';
 import './App.css'
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
-import Home from './components/Home';
-import About from './components/About';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
-import Gallery from './components/Gallery';
-import Rooms from './components/Rooms';
-import Facilities from './components/Facilities';
+import Home from './components/Home/Home';
+import About from './components/About/About';
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
+import Gallery from './components/Gallery/Gallery';
+import Rooms from './components/Rooms/Rooms';
+import Facilities from './components/Facilities/Facilities';
 
 function App() {
   return (
