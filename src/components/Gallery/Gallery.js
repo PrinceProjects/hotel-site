@@ -46,9 +46,11 @@ const Gallery = () => {
 					<div className="image">
 						<img className="lazy-image" src={tv} alt=""/>
 					</div>
-      				<div className="image">
-      					<img className="lazy-image" data-src="../../assets/img/single.jpg" alt=""/>
-      				</div>
+					{
+      				// <div className="image">
+      				// 	<img className="lazy-image" data-src="../../assets/img/single.jpg" alt=""/>
+      				// </div>
+      				}
 				</div>
 			</div>
 			

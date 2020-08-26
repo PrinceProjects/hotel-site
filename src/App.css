@@ -25,7 +25,8 @@ body{
 }
 .side-nav{
 	height: 100%;
-	width: 200px;
+	width: 65%;
+	max-width: 400px;
 	position: fixed;
 	z-index: 1;
 	top: 60px;
@@ -35,12 +36,15 @@ body{
 	padding-top: 50px;
 }
 .nav-link{
-	padding: 10px 10px 10px 30px;
+	padding: 10px 10px 10px 40px;
 	text-decoration: none;
 	font-size: 25px;
 	color: #707070;
 	display: block;
 	transition: 0.25s;
+}
+.nav-link::selection{
+	background: transparent;
 }
 .burger-icon{
 	height: 60px;
@@ -53,12 +57,13 @@ body{
 	justify-content: center;
 	cursor: pointer;
 	z-index: 999;
+	margin-left: 0.5rem;
 }
 .burger-icon span{
 	background-color: white;
-	width: 20px;
-	height: 3px;
-	margin: 2px auto;
+	width: 30px;
+	height: 2px;
+	margin: 2.5px auto;
 }
 .top-nav{
 	background-color: #222;
